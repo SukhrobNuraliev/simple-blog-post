@@ -1,0 +1,172 @@
+
+
+body {
+
+    background-color: bisque;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+
+}
+
+.clear-float {
+    clear: both;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+    background-color: rgb(195, 195, 195);
+    border: 5px red solid ;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.box h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 800;
+    margin: 0;
+}
+
+.box p {
+
+}
+
+.box-2 {
+    border: rgb(15, 13, 13) dotted ;
+    padding: 0 10px;
+    background-color: greenyellow;
+}
+
+.categories {
+    border: 1px green solid;
+    margin: 10px 0;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.categories h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: honeydew;
+    color: rebeccapurple;
+}
+
+.categories ul {
+    list-style:none;
+    padding-left: 20px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: blue;
+}
+
+.categories li {
+    border-bottom: white 1px dotted;
+    padding-bottom: 2px;
+}
+
+.my-form{
+    padding: 5px;
+}
+
+.my-form .form-group {
+    padding-bottom: 10px;
+}
+
+.my-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.my-input{
+    width: 100%;
+}
+.my-form textarea{
+    width: 100%;
+}
+.button {
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: gray;
+
+}
+
+.block {
+    float: right;
+    width: 33%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: gray 2px solid;
+}
+
+#main-block{
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+    padding: 50px 7px;
+    margin-top: 5px;
+    background-color: yellow;
+    margn-right: 5px;
+
+}
+
+#sidebar {
+    float: right;
+    width: 30%;
+    background-color: black;
+    border: brown 5px solid;
+    box-sizing: border-box;
+    color: white;
+    padding: 0 10px;
+    margin-top: 5px;
+
+}
+
+.fix {
+    position: fixed;
+    top: 100px;
+}
+
+.boxx {
+    background-image: url('https://1.bp.blogspot.com/-B3ehzJueOvM/XHKV0vZLYWI/AAAAAAAAC0Y/LwEDcZbb8Lkd1pMFNllCP8x5F2KOKnD3wCKgBGAs/w914-h514-p-k-no-nu/black-red-abstract-polygon-3d-4k-45.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+    border: 1px grey solid;
+    margin-top: 30px;
+}
+
+.list li:last-child{
+    color: hotpink;
+    background: indigo;
+}
+
+.list li:nth-child(even){
+    background: lawngreen;
+}
